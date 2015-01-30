@@ -1,0 +1,81 @@
+body {
+    background: #F0F2EB;
+    font-family: 'Capriola', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Capriola', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    color: #60B99A;
+    font-size: 56px;
+}
+
+h2 {
+    color: #60B99A;
+    font-size: 32px;
+}
+
+img {
+    margin-bottom: 50px;
+}
+
+main {
+    padding: 40px;
+}
+
+pre {
+    text-align: left;
+}
+
+.placeholder {
+    border: 20px dashed #999;
+    clear: both;
+    margin: 0 auto;
+    min-height: 200px;
+    max-width: 90%;
+    padding: 20px 0;
+}
+
+.big {
+    font-size: 300%;
+}
+
+.not-as-big {
+    font-size: 250%;
+}
+
+div {
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.css {
+    background: #60B99A;
+}
+
+.css .big:first-child {
+    color: pink;
+}
+
+@media only screen and (min-width: 40.063em) {
+/*    .row {
+        margin: 40px auto;
+    }*/
+}
+
+
+@media only screen and (min-width: 64.063em) {
+    
+} 
+
+@media only screen and (min-width: 90.063em) { 
+
+}

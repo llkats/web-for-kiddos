@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web for kiddos</title>
+
+    <link type='text/css' rel='stylesheet' href='http://fonts.googleapis.com/css?family=Capriola'>
+    
+    <link type='text/css' rel="stylesheet" href="css/foundation.css">
+    <link type='text/css' rel="stylesheet" href="css/app.css">
+
+    <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+    
+    <main>
+        
+        <h1>How Web Pages Work</h1>
+
+        <section class="web row">
+            <h2>Browsers</h2>
+            <div>
+                <img src="http://edudemic.com/wp-content/uploads/2010/12/all-browsers.png" class="columns" alt="a funny pic">
+                <p class="clearfix">browsers are a special program on your computer that let you access the internet</p>
+                <p>some browser names: Chrome, Firefox, Opera, Safari, Internet Explorer</p>    
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="html row">
+            <h2>All About HTML</h2>
+            <div class="row">
+                <h3>html tells the browser what information you want to write</h3>
+                <figure class="columns medium-5">
+                    <figcaption>angle brackets look like this</figcaption>
+                    <code class="big">&lt; &gt;</code>
+                </figure>
+
+                <figure class="columns medium-5">
+                    <figcaption>tags looks like this</figcaption>
+                    <code class="big">&lt;a&gt;</code>
+                </figure>
+
+                <figure class="clearfix medium-12">
+                    <code class="big">&lt;img src="kitten.gif"&gt;</code><br>
+                    <img src="img/kitten-mew-fingers-paws-aww.gif" alt="a neat image">
+                </figure>
+
+                
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="css row">
+            <h2>CSS is the Best</h2>
+            <div>
+                <h3>css controls how the page looks</h3>
+                
+                <figure>
+                    <figcaption></figcaption>                    
+<pre class="big">p {
+    color: pink;
+}</pre>
+                </figure>
+
+                <figure>
+<pre class="big">.css {
+    background: green;
+}</pre>
+                </figure>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="js row">
+            <h2>JavaScript</h2>
+            <div>
+                <figure>
+                    <figcaption>javascript makes the page alive</figcaption>
+                    <code class="big">alert('hi!');</code>
+                </figure>
+                <a href="#" class="alert-it">make an alert!</a>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+
+        $('.alert-it').on('click', function(e) {
+            e.preventDefault();
+
+            window.alert('we made an alert!');
+        });
+    </script>
+</body>
+</html>
